@@ -104,6 +104,60 @@ export function MobileNav() {
                 >
                   Membership
                 </Link>
+                <Link
+                  href="/insights"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/insights" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Insights
+                </Link>
+                <Link
+                  href="/magazine"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/magazine" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Magazine
+                </Link>
+                <Link
+                  href="/news"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/news" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  News
+                </Link>
+                <Link
+                  href="/podcasts"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/podcasts" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Podcasts
+                </Link>
+                <Link
+                  href="/profile"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/profile" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Profile
+                </Link>
+                <Link
+                  href="/register"
+                  className={`font-orbitron text-lg font-medium transition-colors hover:text-primary ${
+                    pathname === "/register" ? "text-primary" : "text-foreground"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Register
+                </Link>
               </nav>
 
               <div className="mt-auto pt-8">

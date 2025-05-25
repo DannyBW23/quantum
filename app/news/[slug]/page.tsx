@@ -1,6 +1,5 @@
 "use client"
 
-#Justin
 import { useState, useEffect, Suspense } from "react"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Tag, Share2 } from "lucide-react"

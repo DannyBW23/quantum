@@ -140,21 +140,15 @@ const config = {
         "safe-left": "env(safe-area-inset-left, 0px)",
         "safe-right": "env(safe-area-inset-right, 0px)",
       },
-      height: {
-        screen: ["100vh", "100dvh"],
-      },
-      minHeight: {
-        screen: ["100vh", "100dvh"],
-      },
-      maxHeight: {
-        screen: ["100vh", "100dvh"],
-      },
     },
   },
   plugins: [
     require("tailwindcss-animate"),
     ({ addUtilities }) => {
       const newUtilities = {
+        ".h-screen-safe": { height: "100dvh" },
+        ".min-h-screen-safe": { minHeight: "100dvh" },
+        ".max-h-screen-safe": { maxHeight: "100dvh" },
         ".touch-manipulation": {
           "touch-action": "manipulation",
         },
